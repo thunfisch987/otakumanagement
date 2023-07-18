@@ -1,0 +1,22 @@
+{
+	"json.schemaDownload.enable": true,
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/*.code-search": true,
+		"**/.nuxt": true,
+		"pnpm-lock.yaml": true
+	},
+	"editor.useTabStops": true,
+	"editor.tabSize": 4,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"tailwindCSS.includeLanguages": { "vue": "html", "vue-html": "html" },
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"terminal.integrated.fontFamily": "FiraCode Nerd Font",
+	"editor.fontFamily": "FiraCode Nerd Font"
+}
