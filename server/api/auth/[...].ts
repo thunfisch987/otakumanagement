@@ -7,7 +7,8 @@ export default NuxtAuthHandler({
 	},
 	secret: process.env.AUTH_SECRET,
 	providers: [
-		GoogleProvider({
+		// @ts-expect-error
+		GoogleProvider.default({
 			clientId: process.env.CLIENT_ID!,
 			clientSecret: process.env.CLIENT_SECRET!,
 		}),
