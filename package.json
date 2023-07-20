@@ -14,6 +14,7 @@
 		"nuxt": "^3.6.3"
 	},
 	"dependencies": {
-		"@sidebase/nuxt-auth": "0.6.0-beta.3"
+		"@sidebase/nuxt-auth": "0.6.0-beta.3",
+		"sass": "^1.64.0"
 	}
 }
