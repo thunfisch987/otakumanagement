@@ -1,4 +1,5 @@
 <template>
+	<!-- @vue-expect-error -->
 	<button @click="signIn()">to login page</button>
 </template>
 
