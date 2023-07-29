@@ -9,13 +9,32 @@
 		"postinstall": "nuxt prepare"
 	},
 	"devDependencies": {
-		"@nuxt/devtools": "^0.7.0",
-		"@types/node": "^20.4.4",
-		"nuxt": "^3.6.5"
+		"@nuxt/devtools": "^0.7.1",
+		"@types/node": "^20.4.5",
+		"nuxt": "latest",
+		"@iconify-json/heroicons": "^1.1.11",
+		"@nuxtjs/eslint-config-typescript": "^12.0.0",
+		"@nuxtjs/html-validator": "^1.5.2",
+		"eslint": "^8.45.0",
+		"eslint-config-prettier": "^8.9.0"
 	},
 	"dependencies": {
-		"@sidebase/nuxt-auth": "0.6.0-beta.3",
+		"@hebilicious/authjs-nuxt": "^0.2.0-beta.4",
+		"@nuxthq/ui": "^2.6.0",
 		"@vercel/edge-config": "^0.2.1",
-		"sass": "^1.64.1"
+		"sass": "^1.64.1",
+		"next-auth": "^4.22.3",
+		"nitropack": "npm:nitropack-edge@latest"
+	},
+	"overrides": {
+		"nitropack": "npm:nitropack-edge@latest"
+	},
+	"resolutions": {
+		"nitropack": "npm:nitropack-edge@latest"
+	},
+	"pnpm": {
+		"overrides": {
+			"nitropack": "npm:nitropack-edge@latest"
+		}
 	}
 }

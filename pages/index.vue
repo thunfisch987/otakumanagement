@@ -1,8 +1,11 @@
 <template>
-	<!-- @vue-expect-error -->
-	<button @click="signIn()">to login page</button>
+	<div>
+		{{ status }}
+		{{ user }}
+		{{ session }}
+	</div>
 </template>
 
 <script setup lang="ts">
-const { signIn } = useAuth();
+const { status, user, session } = useAuth();
 </script>
