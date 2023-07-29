@@ -5,10 +5,18 @@ const { resolve } = createResolver(import.meta.url);
 export default defineNuxtConfig({
 	modules: [
 		'@hebilicious/authjs-nuxt',
+		'@nuxthq/ui',
+		'@nuxtjs/html-validator',
 	],
+	htmlValidator: {
+		usePrettier: true,
+	},
 	devtools: { enabled: true },
 	typescript: {
 		shim: false,
+	},
+	tailwindcss: {
+		configPath: '~/tailwind.config.ts',
 	},
 	authJs: {
 		guestRedirectTo: '/login',
