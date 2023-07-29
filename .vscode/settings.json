@@ -11,6 +11,14 @@
 	"editor.tabSize": 4,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"tailwindCSS.includeLanguages": { "vue": "html", "vue-html": "html" },
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"tailwindCSS.experimental.configFile": "tailwind.config.ts",
+	"tailwindCSS.experimental.classRegex": [
+		["ui:\\s*{([^)]*)\\s*}", "[\"'`]([^\"'`]*).*?[\"'`]"]
+	],
+	"tailwindCSS.classAttributes": ["class", "className", "ngClass", "ui"],
 	"editor.quickSuggestions": {
 		"strings": "on"
 	},
@@ -18,5 +26,8 @@
 		"source.organizeImports": true
 	},
 	"terminal.integrated.fontFamily": "FiraCode Nerd Font",
-	"editor.fontFamily": "FiraCode Nerd Font"
+	"editor.fontFamily": "FiraCode Nerd Font",
+	"path-intellisense.mappings": {
+		"/": "${workspaceFolder}/pages"
+	}
 }
