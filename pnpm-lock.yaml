@@ -22,10 +22,7 @@ dependencies:
     version: 4.22.3(next@13.4.12)(react-dom@18.2.0)(react@18.2.0)
   nitropack:
     specifier: npm:nitropack-edge@latest
-    version: /nitropack-edge@2.6.0-28165667.2f114e5
-  nuxt:
-    specifier: latest
-    version: 3.6.5(@types/node@20.4.5)(eslint@8.45.0)(sass@1.64.1)(typescript@5.1.6)
+    version: /nitropack-edge@2.6.0-28177183.4c4afd3
   sass:
     specifier: ^1.64.1
     version: 1.64.1
@@ -52,6 +49,9 @@ devDependencies:
   eslint-config-prettier:
     specifier: ^8.9.0
     version: 8.9.0(eslint@8.45.0)
+  nuxt:
+    specifier: latest
+    version: 3.6.5(@types/node@20.4.5)(eslint@8.45.0)(sass@1.64.1)(typescript@5.1.6)
 
 packages:
 
@@ -859,11 +859,13 @@ packages:
     dependencies:
       '@auth/core': 0.9.0
       '@nuxt/kit': 3.6.1
+      '@panva/hkdf': 1.1.1
       cookie: 0.5.0
       cookie-es: 1.0.0
       defu: 6.1.2
       h3: 1.7.1
       immer: 10.0.2
+      jose: 4.14.4
       nuxt: 3.6.5(@types/node@20.4.5)(eslint@8.45.0)(sass@1.64.1)(typescript@5.1.6)
       set-cookie-parser: 2.6.0
       unctx: 2.3.1
@@ -1431,6 +1433,7 @@ packages:
       - '@types/node'
       - eslint
       - less
+      - lightningcss
       - meow
       - optionator
       - rollup
@@ -3909,7 +3912,7 @@ packages:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.12.1
-      resolve: 1.22.3
+      resolve: 1.22.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6042,8 +6045,8 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /nitropack-edge@2.6.0-28165667.2f114e5:
-    resolution: {integrity: sha512-v0nRME4X0Q9OjA+bGDdVvAUMrHFuzmO9ElbjYZ9JWqhaarP5C/LgOJjrTa72bGR35troQBOUEJYEq5r9EuTqCw==}
+  /nitropack-edge@2.6.0-28177183.4c4afd3:
+    resolution: {integrity: sha512-f+eBUZ/fugA9brDBzmqGyKpZCCp/4P6meKCIUC/LJLykGcxSQIgOFuPxoBlXhBLcNokqN2HYY440xEcMs5rg0g==}
     engines: {node: ^14.16.0 || ^16.11.0 || >=17.0.0}
     hasBin: true
     dependencies:
@@ -6368,7 +6371,7 @@ packages:
       local-pkg: 0.4.3
       magic-string: 0.30.2
       mlly: 1.4.0
-      nitropack: /nitropack-edge@2.6.0-28165667.2f114e5
+      nitropack: /nitropack-edge@2.6.0-28177183.4c4afd3
       nuxi: 3.6.5
       nypm: 0.2.2
       ofetch: 1.1.1
@@ -6405,6 +6408,7 @@ packages:
       - encoding
       - eslint
       - less
+      - lightningcss
       - meow
       - optionator
       - rollup
@@ -8673,10 +8677,11 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.3.9(@types/node@20.4.5)(sass@1.64.1)
+      vite: 4.4.7(@types/node@20.4.5)(sass@1.64.1)
     transitivePeerDependencies:
       - '@types/node'
       - less
+      - lightningcss
       - sass
       - stylus
       - sugarss
@@ -8841,7 +8846,6 @@ packages:
       sass: 1.64.1
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
 
   /vscode-jsonrpc@6.0.0:
     resolution: {integrity: sha512-wnJA4BnEjOSyFMvjZdpiOwhSq9uDoK8e/kpRJDTaMYzwlkrhG1fwDIZI94CLsLzlCK5cIbMMtFlJlfR57Lavmg==}
