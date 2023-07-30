@@ -8,9 +8,6 @@ export default defineNuxtConfig({
 		'@nuxthq/ui',
 		'@nuxtjs/html-validator',
 	],
-	htmlValidator: {
-		usePrettier: true,
-	},
 	devtools: { enabled: true },
 	typescript: {
 		shim: false,
