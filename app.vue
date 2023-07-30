@@ -2,14 +2,6 @@
 	<div>
 		<NuxtLoadingIndicator :throttle="0" />
 		<UVerticalNavigation :links="links" />
-		<!-- <img
-			v-if="status === 'authenticated' && user?.image && user?.name"
-			id="profilepicture"
-			:src="user.image"
-			alt="Profile Picture"
-			:title="`${user.name}\n${user.email}\n\nclick to sign out`"
-			@click="signOut()"
-		/> -->
 		<NuxtPage></NuxtPage>
 	</div>
 </template>
