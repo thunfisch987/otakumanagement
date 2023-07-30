@@ -50,4 +50,11 @@ export default defineNuxtConfig({
 			'node_modules/@panva/hkdf/dist/web/index.js',
 		),
 	},
+	app: {
+		head: {
+			htmlAttrs: {
+				lang: 'en',
+			},
+		},
+	},
 });
