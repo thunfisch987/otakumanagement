@@ -7,9 +7,10 @@ import { get } from '@vercel/edge-config';
 const runtimeConfig = useRuntimeConfig();
 
 export const authOptions: AuthConfig = {
-	// pages: {
-	// 	signIn: '/login',
-	// },
+	pages: {
+		signIn: '/login',
+		signOut: '/logout',
+	},
 	secret: runtimeConfig.authSecret,
 	providers: [
 		GoogleProvider({
@@ -29,17 +30,6 @@ export const authOptions: AuthConfig = {
 			}
 			console.log('{miss}');
 			return Promise.resolve(false);
-		},
-	},
-	cookies: {
-		pkceCodeVerifier: {
-			name: '__Secure-next-auth.pkce.code_verifier',
-			options: {
-				httpOnly: true,
-				sameSite: 'none',
-				path: '/',
-				secure: true,
-			},
 		},
 	},
 };
