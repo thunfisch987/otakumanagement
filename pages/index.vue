@@ -1,9 +1,5 @@
 <template>
-	<div>
-		{{ status }}
-		{{ user }}
-		{{ session }}
-	</div>
+	<div></div>
 </template>
 
 <script setup lang="ts">
