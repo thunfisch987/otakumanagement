@@ -22,7 +22,7 @@ export default defineNuxtConfig({
 	},
 	runtimeConfig: {
 		authOrigin: '', // NUXT_AUTH_ORIGIN
-		edgeConfig: '',
+		edgeConfig: '', // NUXT_EDGE_CONFIG
 		authSecret: '', // NUXT_AUTH_SECRET
 		clientId: '', // NUXT_CLIENT_ID
 		clientSecret: '', // NUXT_CLIENT_SECRET
