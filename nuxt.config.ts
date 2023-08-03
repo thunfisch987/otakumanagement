@@ -36,6 +36,7 @@ export default defineNuxtConfig({
 		public: {
 			authJs: {
 				baseUrl: '', // NUXT_PUBLIC_AUTH_JS_BASE_URL
+				verifyClientOnEveryRequest: true,
 			},
 		},
 	},
