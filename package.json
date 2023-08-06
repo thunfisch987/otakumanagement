@@ -9,30 +9,34 @@
 		"postinstall": "nuxt prepare"
 	},
 	"devDependencies": {
-		"@nuxt/devtools": "^0.7.4",
-		"@types/node": "^20.4.7",
-		"nuxt": "latest",
-		"@iconify-json/heroicons": "^1.1.11",
+		"@iconify-json/heroicons": "^1.1.12",
+		"@nuxt/devtools": "^0.7.5",
 		"@nuxtjs/eslint-config-typescript": "^12.0.0",
-		"@nuxtjs/html-validator": "^1.5.2"
+		"@nuxtjs/html-validator": "^1.5.2",
+		"@types/node": "^20.4.8",
+		"nuxt": "latest"
 	},
 	"dependencies": {
 		"@hebilicious/authjs-nuxt": "0.2.0-beta.5",
 		"@nuxthq/ui": "^2.7.0",
 		"@vercel/edge-config": "^0.2.1",
-		"sass": "^1.64.2",
-		"next-auth": "^4.22.3",
-		"nitropack": "npm:nitropack-edge@latest"
+		"h3": "npm:h3-nightly@latest",
+		"next-auth": "^4.22.4",
+		"nitropack": "npm:nitropack-edge@latest",
+		"sass": "^1.64.2"
 	},
 	"overrides": {
-		"nitropack": "npm:nitropack-edge@latest"
+		"nitropack": "npm:nitropack-edge@latest",
+		"h3": "npm:h3-nightly@latest"
 	},
 	"resolutions": {
-		"nitropack": "npm:nitropack-edge@latest"
+		"nitropack": "npm:nitropack-edge@latest",
+		"h3": "npm:h3-nightly@latest"
 	},
 	"pnpm": {
 		"overrides": {
-			"nitropack": "npm:nitropack-edge@latest"
+			"nitropack": "npm:nitropack-edge@latest",
+			"h3": "npm:h3-nightly@latest"
 		}
 	}
 }
