@@ -17,7 +17,7 @@
 		"nuxt": "latest"
 	},
 	"dependencies": {
-		"@hebilicious/authjs-nuxt": "0.2.0-beta.5",
+		"@hebilicious/authjs-nuxt": "0.2.0-beta.8",
 		"@nuxthq/ui": "^2.7.0",
 		"@vercel/edge-config": "^0.2.1",
 		"h3": "npm:h3-nightly@latest",
