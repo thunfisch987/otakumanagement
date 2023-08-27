@@ -25,8 +25,8 @@
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": true
 	},
-	"terminal.integrated.fontFamily": "FiraCode Nerd Font",
-	"editor.fontFamily": "FiraCode Nerd Font",
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"editor.fontFamily": "Fira Code",
 	"path-intellisense.mappings": {
 		"/": "${workspaceFolder}/pages"
 	}
