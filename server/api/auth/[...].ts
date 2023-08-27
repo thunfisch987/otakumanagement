@@ -20,15 +20,11 @@ export const authOptions: AuthConfig = {
 	],
 	callbacks: {
 		async signIn({ profile }) {
-			console.log('{signIn}');
 			if (profile?.email) {
-				console.log('{mail}');
 				if (`${await get('authorizedmails')}`.includes(profile.email)) {
-					console.log('{succ}');
 					return Promise.resolve(true);
 				}
 			}
-			console.log('{miss}');
 			return Promise.resolve(false);
 		},
 	},
