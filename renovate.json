@@ -13,6 +13,6 @@
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "extends": "schedule:daily"
+    "schedule: "at any time"
   }
 }
