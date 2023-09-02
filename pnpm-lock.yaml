@@ -2527,8 +2527,8 @@ packages:
       normalize-path: 3.0.0
       readable-stream: 2.3.8
 
-  /archiver-utils@3.0.3:
-    resolution: {integrity: sha512-fXzpEZTKgBJMWy0eUT0/332CAQnJ27OJd7sGcvNZzxS2Yzg7iITivMhXOm+zUTO4vT8ZqlPCqiaLPmB8qWhWRA==}
+  /archiver-utils@3.0.4:
+    resolution: {integrity: sha512-KVgf4XQVrTjhyWmx6cte4RxonPLR9onExufI1jhvw/MQ4BB6IsZD5gT8Lq+u/+pRkWna/6JoHpiQioaqFP5Rzw==}
     engines: {node: '>= 10'}
     dependencies:
       glob: 7.2.3
@@ -2546,7 +2546,7 @@ packages:
     resolution: {integrity: sha512-EPGa+bYaxaMiCT8DCbEDqFz8IjeBSExrJzyUOJx2FBkFJ/OZzJuso3lMSk901M50gMqXxTQcumlGajOFlXhVhw==}
     engines: {node: '>= 12.0.0'}
     dependencies:
-      archiver-utils: 3.0.3
+      archiver-utils: 3.0.4
       async: 3.2.4
       buffer-crc32: 0.2.13
       readable-stream: 3.6.2
@@ -4163,13 +4163,13 @@ packages:
     dependencies:
       duplexer: 0.1.2
 
-  /h3-nightly@1.8.2-1693084616.4994334:
-    resolution: {integrity: sha512-klmWC0imrVy4X3dLRxi4N28kEtwRSqCCykVCAm4AWHSJrZUG1xglEx5psCx4RM/Blt6vvEmq202e+orbCFZPUA==}
+  /h3-nightly@1.8.2-1693616803.4994334:
+    resolution: {integrity: sha512-Q8+XkofSn5KOnngL6ScwItne5uOBi1LP+IJq20OxRRFkcQdb7nxsVt+t1Pe8ADc53cRHZ34RHlsF0JEu1Ec7oA==}
     dependencies:
       cookie-es: 1.0.0
       defu: 6.1.2
       destr: 2.0.1
-      iron-webcrypto: 0.8.2
+      iron-webcrypto: 0.10.1
       radix3: 1.1.0
       ufo: 1.3.0
       uncrypto: 0.1.3
@@ -4482,6 +4482,9 @@ packages:
   /ip@2.0.0:
     resolution: {integrity: sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==}
     dev: true
+
+  /iron-webcrypto@0.10.1:
+    resolution: {integrity: sha512-QGOS8MRMnj/UiOa+aMIgfyHcvkhqNUsUxb1XzskENvbo+rEfp6TOwqd1KPuDzXC4OnGHcMSVxDGRoilqB8ViqA==}
 
   /iron-webcrypto@0.7.1:
     resolution: {integrity: sha512-K/UmlEhPCPXEHV5hAtH5C0tI5JnFuOrv4yO/j7ODPl3HaiiHBLbOLTde+ieUaAyfCATe4LoAnclyF+hmSCOVmQ==}
@@ -5399,7 +5402,7 @@ packages:
       fs-extra: 11.1.1
       globby: 13.2.2
       gzip-size: 7.0.0
-      h3: /h3-nightly@1.8.2-1693084616.4994334
+      h3: /h3-nightly@1.8.2-1693616803.4994334
       hookable: 5.5.3
       httpxy: 0.1.4
       is-primitive: 3.0.1
