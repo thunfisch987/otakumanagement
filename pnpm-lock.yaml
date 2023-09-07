@@ -25,7 +25,7 @@ dependencies:
     version: 4.23.1(next@13.4.19)(react-dom@18.2.0)(react@18.2.0)
   nitropack:
     specifier: npm:nitropack-edge@latest
-    version: /nitropack-edge@2.6.3-28234700.a228372
+    version: /nitropack-edge@2.6.3-28235083.5639f5b
   sass:
     specifier: latest
     version: 1.66.1
@@ -1427,6 +1427,7 @@ packages:
   /@nuxthq/ui@2.7.0(vue@3.3.4)(webpack@5.88.2):
     resolution: {integrity: sha512-ObWd9VhU0Tz6Jx5KNQG8j9XxyVf1b7QLpX/XyGsTOl5zlFY9XTeI4ZeAZro5BIxQU4hAIoVpPZjuG+5wnToGVg==}
     engines: {node: '>=v16.14.0'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
       '@egoist/tailwindcss-icons': 1.1.0(tailwindcss@3.3.3)
       '@headlessui/vue': 1.7.16(vue@3.3.4)
@@ -4688,8 +4689,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: false
 
-  /listhen@1.4.7:
-    resolution: {integrity: sha512-CCwyvkwJzoUfKb9jYOYEIJMK+waOkKDW1EuABIocwK3caZtqrq6t/Bo51WpN7gpeF8yusoiZf3xeJNyoque3aw==}
+  /listhen@1.4.8:
+    resolution: {integrity: sha512-mhIM2Wd68Yl7ywOWQB0iFZpF+kqhAXTbVgz2YiVn+8p+YoG2sSkAYorxtrnI4c9MHXvjSi3zjOCwwE53ex84PA==}
     hasBin: true
     dependencies:
       '@parcel/watcher': 2.3.0
@@ -5188,10 +5189,15 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /nitropack-edge@2.6.3-28234700.a228372:
-    resolution: {integrity: sha512-HMEFJv7oeI9x1yV4Qs5snUcM5mWmpg6zWfa2LVG6QahLa1PXYEQTn6wo2vDm1IE9WD9d2n6cNNshUfvlS16jpA==}
+  /nitropack-edge@2.6.3-28235083.5639f5b:
+    resolution: {integrity: sha512-g9gIHWrttxA+wJR2/WmwWiXmyuvvxWuYrL+WDIEZ4skrk+K5q1RHPBNfVpHEUOXciR1ZhKoc65nbT38h3KCX2w==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
+    peerDependencies:
+      xml2js: ^0.6.2
+    peerDependenciesMeta:
+      xml2js:
+        optional: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.0
       '@netlify/functions': 2.0.2
@@ -5229,7 +5235,7 @@ packages:
       jiti: 1.20.0
       klona: 2.0.6
       knitwork: 1.0.0
-      listhen: 1.4.7
+      listhen: 1.4.8
       magic-string: 0.30.3
       mime: 3.0.0
       mlly: 1.4.2
@@ -5510,7 +5516,7 @@ packages:
       knitwork: 1.0.0
       magic-string: 0.30.3
       mlly: 1.4.2
-      nitropack: /nitropack-edge@2.6.3-28234700.a228372
+      nitropack: /nitropack-edge@2.6.3-28235083.5639f5b
       nuxi: 3.7.3
       nypm: 0.3.2
       ofetch: 1.3.3
@@ -5564,6 +5570,7 @@ packages:
       - vls
       - vti
       - vue-tsc
+      - xml2js
 
   /nypm@0.3.2:
     resolution: {integrity: sha512-a49F06faGtgflUVvqIkBmrYkijbbhjEoR40gzgw7I43J1p3DkHQegNcRhaGaHddIYQ0KwrmvD1W/h16jn/2puA==}
@@ -7387,7 +7394,7 @@ packages:
       destr: 2.0.1
       h3: 1.8.1
       ioredis: 5.3.2
-      listhen: 1.4.7
+      listhen: 1.4.8
       lru-cache: 10.0.1
       mri: 1.2.0
       node-fetch-native: 1.4.0
