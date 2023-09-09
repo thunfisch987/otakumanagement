@@ -280,6 +280,40 @@ packages:
     dependencies:
       '@babel/types': 7.22.17
 
+  /@babel/plugin-proposal-decorators@7.22.15(@babel/core@7.22.17):
+    resolution: {integrity: sha512-kc0VvbbUyKelvzcKOSyQUSVVXS5pT3UhRB0e3c9An86MvLqs+gx0dN4asllrDluqSa3m9YyooXKGOFVomnyFkg==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.22.17
+      '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.22.17)
+      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-replace-supers': 7.22.9(@babel/core@7.22.17)
+      '@babel/helper-split-export-declaration': 7.22.6
+      '@babel/plugin-syntax-decorators': 7.22.10(@babel/core@7.22.17)
+    dev: true
+
+  /@babel/plugin-syntax-decorators@7.22.10(@babel/core@7.22.17):
+    resolution: {integrity: sha512-z1KTVemBjnz+kSEilAsI4lbkPOl5TvJH7YDSY1CTIzvLWJ+KHXp+mRe8VPmfnyvqOPqar1V2gid2PleKzRUstQ==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.22.17
+      '@babel/helper-plugin-utils': 7.22.5
+    dev: true
+
+  /@babel/plugin-syntax-import-attributes@7.22.5(@babel/core@7.22.17):
+    resolution: {integrity: sha512-KwvoWDeNKPETmozyFE0P2rOLqh39EoQHNjqizrI5B8Vt0ZNS7M56s7dAiAqbYfiAYOuIzIh96z3iR2ktgu3tEg==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.22.17
+      '@babel/helper-plugin-utils': 7.22.5
+    dev: true
+
   /@babel/plugin-syntax-import-meta@7.10.4(@babel/core@7.22.17):
     resolution: {integrity: sha512-Yqfm+XDx0+Prh3VSeEQCPU81yC+JWZ2pDPFSS4ZdpfZhp4MkFMaDC1UqseovEKwSUpnIL7+vK+Clp7bfh0iD7g==}
     peerDependencies:
@@ -1212,7 +1246,7 @@ packages:
       unimport: 3.3.0(rollup@3.29.0)
       vite: 4.4.9(@types/node@20.6.0)(sass@1.66.1)
       vite-plugin-inspect: 0.7.38(@nuxt/kit@3.7.1)(vite@4.4.9)
-      vite-plugin-vue-inspector: 3.6.0(vite@4.4.9)
+      vite-plugin-vue-inspector: 3.7.0(vite@4.4.9)
       wait-on: 7.0.1
       which: 3.0.1
       ws: 8.14.1
@@ -2572,7 +2606,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.10
-      caniuse-lite: 1.0.30001529
+      caniuse-lite: 1.0.30001532
       fraction.js: 4.3.6
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2667,7 +2701,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001529
+      caniuse-lite: 1.0.30001532
       electron-to-chromium: 1.4.513
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
@@ -2796,12 +2830,12 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.21.10
-      caniuse-lite: 1.0.30001529
+      caniuse-lite: 1.0.30001532
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
-  /caniuse-lite@1.0.30001529:
-    resolution: {integrity: sha512-n2pUQYGAkrLG4QYj2desAh+NqsJpHbNmVZz87imptDdxLAtjxary7Df/psdfyDGmskJK/9Dt9cPnx5RZ3CU4Og==}
+  /caniuse-lite@1.0.30001532:
+    resolution: {integrity: sha512-FbDFnNat3nMnrROzqrsg314zhqN5LGQ1kyyMk2opcrwGbVGpHRhgCWtAgD5YJUqNAiQ+dklreil/c3Qf1dfCTw==}
 
   /chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -5115,7 +5149,7 @@ packages:
       '@next/env': 13.4.19
       '@swc/helpers': 0.5.1
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001529
+      caniuse-lite: 1.0.30001532
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -7543,12 +7577,14 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-inspector@3.6.0(vite@4.4.9):
-    resolution: {integrity: sha512-Fi+9JaMx/reuic+MWbrdw8g5TwZM5a/BmdBT8OKKZi3rK4Qw3wND9smT+Ld+Daitbgly17uvuCiull2KV/hEBQ==}
+  /vite-plugin-vue-inspector@3.7.0(vite@4.4.9):
+    resolution: {integrity: sha512-awlJNDCAF5qhr36GHYDYTfnTTn3+HzYiIxSvHznHnPQvi0tXiEhGRMPmSm8stY7WjikqG8JLgcV9Q0vdMj11kQ==}
     peerDependencies:
       vite: ^3.0.0-0 || ^4.0.0-0
     dependencies:
       '@babel/core': 7.22.17
+      '@babel/plugin-proposal-decorators': 7.22.15(@babel/core@7.22.17)
+      '@babel/plugin-syntax-import-attributes': 7.22.5(@babel/core@7.22.17)
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.22.17)
       '@babel/plugin-transform-typescript': 7.22.15(@babel/core@7.22.17)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.22.17)
