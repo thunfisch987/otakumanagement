@@ -11,28 +11,15 @@
 	"devDependencies": {
 		"@iconify-json/heroicons": "latest",
 		"@nuxt/devtools": "latest",
-		"@nuxtjs/html-validator": "latest",
 		"@types/node": "latest",
-		"nuxt": "latest"
+		"nuxt": "latest",
+		"nitropack": "npm:nitropack-edge@latest"
 	},
 	"dependencies": {
 		"@hebilicious/authjs-nuxt": "latest",
-		"@nuxthq/ui": "latest",
+		"@nuxt/ui": "latest",
 		"@vercel/edge-config": "latest",
-		"h3": "latest",
-		"next-auth": "latest",
-		"nitropack": "npm:nitropack-edge@latest",
+		"@auth/core": "latest",
 		"sass": "latest"
-	},
-	"overrides": {
-		"nitropack": "npm:nitropack-edge@latest"
-	},
-	"resolutions": {
-		"nitropack": "npm:nitropack-edge@latest"
-	},
-	"pnpm": {
-		"overrides": {
-			"nitropack": "npm:nitropack-edge@latest"
-		}
 	}
 }
