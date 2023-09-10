@@ -1820,7 +1820,7 @@ packages:
     resolution: {integrity: sha512-K5LoJRd0bZcVxwjVlKcgthqVZcTz0n5uq5FCpFL5U5Z4ew13+RB6iVwHBBSPXAeonpM38EuHSWL3rFqrMRI4SA==}
     dependencies:
       hookable: 5.5.3
-      zhead: 2.1.0
+      zhead: 2.1.1
 
   /@unhead/shared@1.5.5:
     resolution: {integrity: sha512-xPiKc/hi6r6gaGLghl8EUVtBQM4PqUV+eMhe4rGL9RlSz4zIKtW63XVqAoD+7Q/X/CPCaJ1wlc2U/t3CjGgePA==}
@@ -7645,8 +7645,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /zhead@2.1.0:
-    resolution: {integrity: sha512-1Qglm8Z9xyLZwXneufeg9nnaTPQbtdLILS+jLXbZmSrR4tNP3WdnsQbxSN5XPG2p4ZYn2wnJlFVLSClqTEoy1Q==}
+  /zhead@2.1.1:
+    resolution: {integrity: sha512-FRmjAFioi07R+bmL+fqbkXF/pCbC9PwcKQ8RDluC5xTaVbNBgYRQ4eKuS1C8c7Sil//UIxet/AGp7D6royoHhA==}
 
   /zip-stream@5.0.1:
     resolution: {integrity: sha512-UfZ0oa0C8LI58wJ+moL46BDIMgCQbnsb+2PoiJYtonhBsMh2bq1eRBVkvjfVsqbEHd9/EgKPUuL9saSSsec8OA==}
