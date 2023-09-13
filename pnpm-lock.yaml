@@ -1810,38 +1810,38 @@ packages:
     resolution: {integrity: sha512-4p9vcSmxAayx72yn70joFoL44c9MO/0+iVEBIQXe3v2h2SiAsEIo/G5v6ObFWvNKRFjbrVadNf9LqEEZeQPzdA==}
     dev: false
 
-  /@unhead/dom@1.7.0:
-    resolution: {integrity: sha512-stmQRicSlv5fvAi6hD2pGhjGTCg7HTqNdVbfZXMrNhqA11aLmsY0zB0Dqa+VxEQqM493ORojGywQJNfo+f7wog==}
+  /@unhead/dom@1.7.2:
+    resolution: {integrity: sha512-XQTBmVRP53170/YqdRTzuw/cs2lD2eoaFd28FZC2hLBpnrHsYZ8Wb0HSdHUF+HsKMT2ePANIB27HJNn08VjuXg==}
     dependencies:
-      '@unhead/schema': 1.7.0
-      '@unhead/shared': 1.7.0
+      '@unhead/schema': 1.7.2
+      '@unhead/shared': 1.7.2
 
-  /@unhead/schema@1.7.0:
-    resolution: {integrity: sha512-mXDBW3h8c2x3JUOTVyEGCM7Cvy8vnDERbdBh8mZgTOFu90xy317MYN6RGaZRHt5lTqQ0dWzotmNuoYJcHAIIjg==}
+  /@unhead/schema@1.7.2:
+    resolution: {integrity: sha512-3KraAvRF14T/tLVJblDa91+L4VqjYK0GnvCUwo9ZHuRYoqK7fplZ7DYlvflC5rNS0vtsLHrFw7QFltczvIx75A==}
     dependencies:
       hookable: 5.5.3
       zhead: 2.1.1
 
-  /@unhead/shared@1.7.0:
-    resolution: {integrity: sha512-Etbw+OcN/cAWS2BCQyPmSqvPpECMthHsRv+/mSh8ykuZ6baU/0JR+Jk/oh3bOAwtmoM1jJiBU37gz68icZev0w==}
+  /@unhead/shared@1.7.2:
+    resolution: {integrity: sha512-txvsqfzqxqsFGjYai5PKIVErKlGPZUaTHugvpeH+syhqKnVbcc9DGOI3A5Tyh2Wsr8Hn63hZq6O2JZnab9Sj4Q==}
     dependencies:
-      '@unhead/schema': 1.7.0
+      '@unhead/schema': 1.7.2
 
-  /@unhead/ssr@1.7.0:
-    resolution: {integrity: sha512-2bI1Goqr0TJqM/DI6D9Q/DWDw4Qs8Y+/RHaeb5UnavNjUHEpCrKY3XL7RMGWeMaGRcQ0hhn5hjv+SyanA4kf5w==}
+  /@unhead/ssr@1.7.2:
+    resolution: {integrity: sha512-J38E7lpwJPVjbF9OU9GWMd5t4+sJhyIoUfdzXtclIpnKxpFRyyxf/pWIHI9vnEClpafNYCJe7rJ2rHLAudnNiQ==}
     dependencies:
-      '@unhead/schema': 1.7.0
-      '@unhead/shared': 1.7.0
+      '@unhead/schema': 1.7.2
+      '@unhead/shared': 1.7.2
 
-  /@unhead/vue@1.7.0(vue@3.3.4):
-    resolution: {integrity: sha512-MnRqWbbwE9mAywM7dDsfVZZGDzf/b4t4YoKq88dM2qW/cJ7yOJZTeXag/6WwwQU9TWzAvDhmq6vUgUyv/ZTCnQ==}
+  /@unhead/vue@1.7.2(vue@3.3.4):
+    resolution: {integrity: sha512-TxIQe5IoeaIxN6pV8Rve7zi8Myw1DBoOIU74Tr7rLGVkgkoeVKS+gHYg4h85/R8uey0qfvyKSEX00OMt1gPSxg==}
     peerDependencies:
       vue: '>=2.7 || >=3'
     dependencies:
-      '@unhead/schema': 1.7.0
-      '@unhead/shared': 1.7.0
+      '@unhead/schema': 1.7.2
+      '@unhead/shared': 1.7.2
       hookable: 5.5.3
-      unhead: 1.7.0
+      unhead: 1.7.2
       vue: 3.3.4
 
   /@vercel/edge-config-fs@0.1.0:
@@ -4492,8 +4492,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: false
 
-  /listhen@1.5.0:
-    resolution: {integrity: sha512-qiCsszmva2NnayRCNV7G5TZz0AUQcCfJOhwlEDL58TXebt9nEHxYamsW0qvg88hTDwO/zm0YlU0YOzOx/FMW5w==}
+  /listhen@1.5.1:
+    resolution: {integrity: sha512-w4gfu76ibnSZBqPCqYORE4ewufHevXe6s39iQhPrOxSl/HzujP9pM9i/oHqzGm2L776djMm5wSE/5kR75RNcbA==}
     hasBin: true
     dependencies:
       '@parcel/watcher': 2.3.0
@@ -4965,7 +4965,7 @@ packages:
       jiti: 1.20.0
       klona: 2.0.6
       knitwork: 1.0.0
-      listhen: 1.5.0
+      listhen: 1.5.1
       magic-string: 0.30.3
       mime: 3.0.0
       mlly: 1.4.2
@@ -4973,7 +4973,7 @@ packages:
       node-fetch-native: 1.4.0
       ofetch: 1.3.3
       ohash: 1.1.3
-      openapi-typescript: 6.6.0
+      openapi-typescript: 6.6.1
       pathe: 1.1.1
       perfect-debounce: 1.0.0
       pkg-types: 1.0.3
@@ -5054,7 +5054,7 @@ packages:
       jiti: 1.20.0
       klona: 2.0.6
       knitwork: 1.0.0
-      listhen: 1.5.0
+      listhen: 1.5.1
       magic-string: 0.30.3
       mime: 3.0.0
       mlly: 1.4.2
@@ -5062,7 +5062,7 @@ packages:
       node-fetch-native: 1.4.0
       ofetch: 1.3.3
       ohash: 1.1.3
-      openapi-typescript: 6.6.0
+      openapi-typescript: 6.6.1
       pathe: 1.1.1
       perfect-debounce: 1.0.0
       pkg-types: 1.0.3
@@ -5312,9 +5312,9 @@ packages:
       '@nuxt/ui-templates': 1.3.1
       '@nuxt/vite-builder': 3.7.2(@types/node@20.6.0)(sass@1.66.1)(vue@3.3.4)
       '@types/node': 20.6.0
-      '@unhead/dom': 1.7.0
-      '@unhead/ssr': 1.7.0
-      '@unhead/vue': 1.7.0(vue@3.3.4)
+      '@unhead/dom': 1.7.2
+      '@unhead/ssr': 1.7.2
+      '@unhead/vue': 1.7.2(vue@3.3.4)
       '@vue/shared': 3.3.4
       acorn: 8.10.0
       c12: 1.4.2
@@ -5500,8 +5500,8 @@ packages:
       is-wsl: 2.2.0
     dev: true
 
-  /openapi-typescript@6.6.0:
-    resolution: {integrity: sha512-j5axpZ17ZBuWA0nQmdVMK0nyBf/PDJqdVSUO1IC/FGVKc5aeelCRrRUA2tZGtxHKC+UetKIoZ4pnxiNazGO9ww==}
+  /openapi-typescript@6.6.1:
+    resolution: {integrity: sha512-jx7bzR6FfkG21icjikrF0k6K8moNg93PuZlfc+zo4Enxwmyw6vAUh4Rl064JN35um/RV8ZX7ANnMrQW8gRsGsQ==}
     hasBin: true
     dependencies:
       ansi-colors: 4.1.3
@@ -7011,12 +7011,12 @@ packages:
       node-fetch-native: 1.4.0
       pathe: 1.1.1
 
-  /unhead@1.7.0:
-    resolution: {integrity: sha512-ql8U2dEf6de+8Bfy6MyHNbhKLkDE8sxWOEcDvHUsoKQ3eGjCiQbdMw8ha8r/jBs12bpgauQRC0p6kvIVSjR/og==}
+  /unhead@1.7.2:
+    resolution: {integrity: sha512-dyfo7TIVk/uu0/yM34VH4vif7GUCWQwUho5TqQiEtHo7yycT0cZz0Xa51thlc8DHV/TsJ42fAqUhhkMgfj6Gaw==}
     dependencies:
-      '@unhead/dom': 1.7.0
-      '@unhead/schema': 1.7.0
-      '@unhead/shared': 1.7.0
+      '@unhead/dom': 1.7.2
+      '@unhead/schema': 1.7.2
+      '@unhead/shared': 1.7.2
       hookable: 5.5.3
 
   /unimport@3.3.0(rollup@3.29.1):
@@ -7131,7 +7131,7 @@ packages:
       destr: 2.0.1
       h3: 1.8.1
       ioredis: 5.3.2
-      listhen: 1.5.0
+      listhen: 1.5.1
       lru-cache: 10.0.1
       mri: 1.2.0
       node-fetch-native: 1.4.0
