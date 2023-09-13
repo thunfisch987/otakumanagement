@@ -33,7 +33,7 @@ devDependencies:
     version: 20.6.0
   nitropack:
     specifier: npm:nitropack-edge@latest
-    version: /nitropack-edge@2.6.4-28240892.f84c282
+    version: /nitropack-edge@2.6.4-28243740.058bacf
   nuxt:
     specifier: latest
     version: 3.7.2(@types/node@20.6.0)(sass@1.66.1)
@@ -2551,7 +2551,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001534
-      electron-to-chromium: 1.4.519
+      electron-to-chromium: 1.4.520
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
 
@@ -3252,8 +3252,8 @@ packages:
   /ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  /electron-to-chromium@1.4.519:
-    resolution: {integrity: sha512-kqs9oGYL4UFVkLKhqCTgBCYZv+wZ374yABDMqlDda9HvlkQxvSr7kgf4hfWVjMieDbX+1MwPHFBsOGCMIBaFKg==}
+  /electron-to-chromium@1.4.520:
+    resolution: {integrity: sha512-Frfus2VpYADsrh1lB3v/ft/WVFlVzOIm+Q0p7U7VqHI6qr7NWHYKe+Wif3W50n7JAFoBsWVsoU0+qDks6WQ60g==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4919,8 +4919,8 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /nitropack-edge@2.6.4-28240892.f84c282:
-    resolution: {integrity: sha512-BSJIFsPozlI7Hox535BgI3N+g3tYSiSNcTRkiYmB0d6GGo7QwpNUqeF1CTS6ba8dv++ubM6GFYV3qKQytkj1WA==}
+  /nitropack-edge@2.6.4-28243740.058bacf:
+    resolution: {integrity: sha512-F+Y+c20mEJtUNYyOIM1HPuNZWnIwLPfrR8WohjChTRDGn5gdliczJ7YFSTfPqBgYevbjBdRhcFP8i8Ir0P+A7g==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
