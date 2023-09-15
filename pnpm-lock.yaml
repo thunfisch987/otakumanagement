@@ -4492,8 +4492,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: false
 
-  /listhen@1.5.2:
-    resolution: {integrity: sha512-hcOLr0z3vd3KzjOm2F2fX47faCWu9ldFrthhOPJ65kcu7Yr2wq/NiXOU62DH++FnkSnGbDk+O7Xf6MXQ4UUiHg==}
+  /listhen@1.5.3:
+    resolution: {integrity: sha512-5SitrZRCH4XXHvKSAqwaLURfQ6ZS/BCv+kpPkage5PhSnQPlz5HIVROCEIcMw8YvIF8NhDUAj/HAI/OovJGEpQ==}
     hasBin: true
     dependencies:
       '@parcel/watcher': 2.3.0
@@ -4966,7 +4966,7 @@ packages:
       jiti: 1.20.0
       klona: 2.0.6
       knitwork: 1.0.0
-      listhen: 1.5.2
+      listhen: 1.5.3
       magic-string: 0.30.3
       mime: 3.0.0
       mlly: 1.4.2
@@ -5055,7 +5055,7 @@ packages:
       jiti: 1.20.0
       klona: 2.0.6
       knitwork: 1.0.0
-      listhen: 1.5.2
+      listhen: 1.5.3
       magic-string: 0.30.3
       mime: 3.0.0
       mlly: 1.4.2
@@ -7132,7 +7132,7 @@ packages:
       destr: 2.0.1
       h3: 1.8.1
       ioredis: 5.3.2
-      listhen: 1.5.2
+      listhen: 1.5.3
       lru-cache: 10.0.1
       mri: 1.2.0
       node-fetch-native: 1.4.0
