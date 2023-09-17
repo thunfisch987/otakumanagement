@@ -1,32 +1,32 @@
 {
-	"name": "nuxt-app",
-	"private": true,
-	"scripts": {
-		"build": "nuxt build",
-		"dev": "nuxt dev",
-		"generate": "nuxt generate",
-		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare"
-	},
-	"devDependencies": {
-		"@iconify-json/heroicons": "latest",
-		"@nuxt/devtools": "latest",
-		"@types/node": "latest",
-		"nuxt": "latest",
-		"nitropack": "npm:nitropack-edge@latest"
-	},
-	"dependencies": {
-		"@hebilicious/authjs-nuxt": "latest",
-		"@nuxt/ui": "latest",
-		"@vercel/edge-config": "latest",
-		"@auth/core": "latest",
-		"sass": "latest"
-	},
-	"pnpm": {
-		"peerDependencyRules": {
-			"allowedVersions": {
-				"@auth/core": "0.15"
-			}
-		}
-	}
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "latest",
+    "@nuxt/devtools": "latest",
+    "@types/node": "latest",
+    "nitropack": "latest",
+    "nuxt": "latest"
+  },
+  "dependencies": {
+    "@auth/core": "latest",
+    "@hebilicious/authjs-nuxt": "latest",
+    "@nuxt/ui": "latest",
+    "@vercel/edge-config": "latest",
+    "sass": "latest"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "@auth/core": "0.15"
+      }
+    }
+  }
 }
