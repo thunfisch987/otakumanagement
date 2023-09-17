@@ -6,36 +6,36 @@ settings:
 
 dependencies:
   '@auth/core':
-    specifier: ^0.15.0
+    specifier: latest
     version: 0.15.0
   '@hebilicious/authjs-nuxt':
-    specifier: ^0.3.0
+    specifier: latest
     version: 0.3.0(@auth/core@0.15.0)(nuxt@3.7.3)
   '@nuxt/ui':
-    specifier: ^2.8.1
+    specifier: latest
     version: 2.8.1(vue@3.3.4)(webpack@5.88.2)
   '@vercel/edge-config':
-    specifier: ^0.4.0
+    specifier: latest
     version: 0.4.0
   sass:
-    specifier: ^1.67.0
+    specifier: latest
     version: 1.67.0
 
 devDependencies:
   '@iconify-json/heroicons':
-    specifier: ^1.1.12
+    specifier: latest
     version: 1.1.12
   '@nuxt/devtools':
-    specifier: ^0.8.3
+    specifier: latest
     version: 0.8.3(nuxt@3.7.3)(vite@4.4.9)
   '@types/node':
-    specifier: ^20.6.2
+    specifier: latest
     version: 20.6.2
   nitropack:
-    specifier: npm:nitropack-edge@2.6.4-28243740.058bacf
+    specifier: npm:nitropack-edge@latest
     version: /nitropack-edge@2.6.4-28243740.058bacf
   nuxt:
-    specifier: ^3.7.3
+    specifier: latest
     version: 3.7.3(@types/node@20.6.2)(sass@1.67.0)
 
 packages:
@@ -827,7 +827,7 @@ packages:
     resolution: {integrity: sha512-46KZ+tpOqEq24s9ewIXN5juwucubnj8EV3yvcsNbl1KaM4OfK7SsbUA1ZVzCGtjn/nL+P24U9A5cOC+uekxwfQ==}
     requiresBuild: true
     peerDependencies:
-      '@auth/core': ^0.14.0
+      '@auth/core': ^0.14.0 || 0.15
       nuxt: ^3.7.1
     dependencies:
       '@auth/core': 0.15.0
