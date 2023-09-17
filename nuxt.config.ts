@@ -50,4 +50,9 @@ export default defineNuxtConfig({
 		preference: 'dark',
 		fallback: 'dark',
 	},
+	experimental: {
+		headNext: true,
+		typescriptBundlerResolution: true,
+		writeEarlyHints: true,
+	}
 });
