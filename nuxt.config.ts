@@ -3,7 +3,7 @@ import { createResolver } from '@nuxt/kit';
 const { resolve } = createResolver(import.meta.url);
 
 export default defineNuxtConfig({
-	modules: ['@hebilicious/authjs-nuxt', '@nuxthq/ui'],
+	modules: ['@hebilicious/authjs-nuxt', '@nuxt/ui'],
 	devtools: { enabled: true },
 	typescript: {
 		shim: false,
@@ -38,11 +38,6 @@ export default defineNuxtConfig({
 	},
 	alias: {
 		cookie: resolve(__dirname, 'node_modules/cookie'),
-		jose: resolve(__dirname, 'node_modules/jose/dist/browser/index.js'),
-		'@panva/hkdf': resolve(
-			__dirname,
-			'node_modules/@panva/hkdf/dist/web/index.js',
-		),
 	},
 	app: {
 		head: {
