@@ -32,7 +32,7 @@ export default defineNuxtConfig({
 		public: {
 			authJs: {
 				baseUrl: '', // NUXT_PUBLIC_AUTH_JS_BASE_URL
-				verifyClientOnEveryRequest: true,
+				verifyClientOnEveryRequest: true, // NUXT_PUBLIC_AUTH_JS_VERIFY_CLIENT_ON_EVERY_REQUEST
 			},
 		},
 	},
@@ -54,5 +54,5 @@ export default defineNuxtConfig({
 		headNext: true,
 		typescriptBundlerResolution: true,
 		writeEarlyHints: true,
-	}
+	},
 });
