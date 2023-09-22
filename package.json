@@ -12,7 +12,7 @@
     "@iconify-json/heroicons": "latest",
     "@nuxt/devtools": "latest",
     "@types/node": "latest",
-    "bun-types": "^1.0.3",
+    "bun-types": "latest",
     "nitropack": "latest",
     "nuxt": "latest"
   },
