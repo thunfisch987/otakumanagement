@@ -29,5 +29,7 @@
 	"editor.fontFamily": "Fira Code",
 	"path-intellisense.mappings": {
 		"/": "${workspaceFolder}/pages"
-	}
+	},
+	"npm.autoDetect": "on",
+	"npm.packageManager": "bun"
 }
