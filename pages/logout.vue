@@ -5,6 +5,6 @@
 <script setup lang="ts">
 const { signOut } = useAuth();
 definePageMeta({
-	middleware: 'auth',
+	middleware: 'client-auth',
 });
 </script>

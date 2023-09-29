@@ -8,5 +8,4 @@
 
 <script setup lang="ts">
 useHead({ title: 'Otaku Management' });
-const { user, status } = useAuth();
 </script>

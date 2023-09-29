@@ -1,9 +1,9 @@
 <template>
-	<div>😘</div>
+	<div>👌</div>
 </template>
 
 <script setup lang="ts">
 definePageMeta({
-	middleware: 'auth',
+	middleware: 'client-auth',
 });
 </script>

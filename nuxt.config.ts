@@ -12,9 +12,7 @@ export default defineNuxtConfig({
 		configPath: '~/tailwind.config.ts',
 	},
 	authJs: {
-		guestRedirectTo: '/login',
-		authenticatedRedirectTo: '/',
-		verifyClientOnEveryRequest: true,
+		verifyClientOnEveryRequest: false,
 	},
 	runtimeConfig: {
 		authOrigin: '', // NUXT_AUTH_ORIGIN
@@ -32,7 +30,7 @@ export default defineNuxtConfig({
 		public: {
 			authJs: {
 				baseUrl: '', // NUXT_PUBLIC_AUTH_JS_BASE_URL
-				verifyClientOnEveryRequest: true, // NUXT_PUBLIC_AUTH_JS_VERIFY_CLIENT_ON_EVERY_REQUEST
+				verifyClientOnEveryRequest: false, // NUXT_PUBLIC_AUTH_JS_VERIFY_CLIENT_ON_EVERY_REQUEST
 			},
 		},
 	},
