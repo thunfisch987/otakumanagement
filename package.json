@@ -23,11 +23,7 @@
     "@vercel/edge-config": "latest",
     "sass": "latest"
   },
-  "pnpm": {
-    "peerDependencyRules": {
-      "allowedVersions": {
-        "@auth/core": "0.15"
-      }
-    }
+  "overrides": {
+    "@auth/core": "latest"
   }
 }
