@@ -24,6 +24,7 @@
     "sass": "latest"
   },
   "overrides": {
-    "@auth/core": "latest"
+    "@auth/core": "latest",
+    "@polka/url": "next"
   }
 }
