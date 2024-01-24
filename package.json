@@ -13,7 +13,7 @@
     "@nuxt/devtools": "latest",
     "@types/node": "latest",
     "@vite-pwa/nuxt": "latest",
-    "bun-types": "latest",
+    "@types/bun": "latest",
     "nuxt": "latest"
   },
   "dependencies": {
