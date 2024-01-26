@@ -1,8 +1,7 @@
-// eslint-disable-next-line import/order
-import { NuxtAuthHandler } from '#auth';
 import GoogleProvider from '@auth/core/providers/google';
 import type { AuthConfig } from '@auth/core/types';
 import { get } from '@vercel/edge-config';
+import { NuxtAuthHandler } from '#auth';
 
 const runtimeConfig = useRuntimeConfig();
 
