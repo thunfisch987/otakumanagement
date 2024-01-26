@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@auth/core": "latest",
+    "@biomejs/biome": "latest",
     "@hebilicious/authjs-nuxt": "latest",
     "@nuxt/ui": "latest",
     "@vercel/edge-config": "latest",
