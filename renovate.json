@@ -1,6 +1,4 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "github>thunfisch987/thunfisch987"
-  ],
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["github>thunfisch987/thunfisch987"]
 }
