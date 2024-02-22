@@ -1,6 +1,6 @@
 import GoogleProvider from '@auth/core/providers/google';
 import type { AuthConfig } from '@auth/core/types';
-import { get } from '@vercel/edge-config';
+import { get as edgeConfigGet } from '@vercel/edge-config';
 import { NuxtAuthHandler } from '#auth';
 
 const runtimeConfig = useRuntimeConfig();
@@ -20,7 +20,11 @@ export const authOptions: AuthConfig = {
 	callbacks: {
 		async signIn({ profile }) {
 			if (profile?.email) {
-				if (`${await get('authorizedmails')}`.includes(profile.email)) {
+				if (
+					`${await edgeConfigGet('authorizedmails')}`.includes(
+						profile.email,
+					)
+				) {
 					return Promise.resolve(true);
 				}
 			}
