@@ -21,6 +21,7 @@
     "@biomejs/biome": "latest",
     "@hebilicious/authjs-nuxt": "latest",
     "@nuxt/ui": "latest",
+    "@opentelemetry/api": "^1.7.0",
     "@vercel/edge-config": "latest",
     "sass": "latest"
   },
