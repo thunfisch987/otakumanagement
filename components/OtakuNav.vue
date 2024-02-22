@@ -10,7 +10,6 @@
 				<UAvatar
 					v-else-if="status === 'authenticated'"
 					v-bind="{ ...link.avatar }"
-					:class="[ui.verticalNavigation.avatar.base]"
 				></UAvatar>
 				<UIcon
 					v-else-if="status === 'unauthenticated'"
@@ -26,9 +25,10 @@
 	</UVerticalNavigation>
 </template>
 <script setup lang="ts">
+import type { VerticalNavigationLink } from '#ui/types/vertical-navigation';
 const { status, user } = useAuth();
 const { ui } = useAppConfig();
-const links = computed(() => [
+const links = computed((): VerticalNavigationLink[] => [
 	{
 		label:
 			user.value?.name && user.value.email

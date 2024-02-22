@@ -27,7 +27,7 @@ export const authOptions: AuthConfig = {
 			return Promise.resolve(false);
 		},
 	},
-	basePath: 'https://otaku.littlebitgay.de/api/auth',
+	basePath: '/api/auth',
 };
 
 export default NuxtAuthHandler(authOptions, runtimeConfig);
