@@ -3,7 +3,7 @@ import { createResolver } from '@nuxt/kit';
 const { resolve } = createResolver(import.meta.url);
 
 export default defineNuxtConfig({
-	modules: ['@hebilicious/authjs-nuxt', '@nuxt/ui', '@vite-pwa/nuxt'],
+	modules: ['@hebilicious/authjs-nuxt', '@nuxt/ui', '@vite-pwa/nuxt', "@nuxt/eslint"],
 	devtools: { enabled: true },
 	typescript: {
 		shim: false,
