@@ -31,6 +31,8 @@
     "@polka/url": "next"
   },
   "trustedDependencies": [
-    "@biomejs/biome"
+    "@biomejs/biome",
+    "esbuild",
+    "vue-demi"
   ]
 }
