@@ -9,22 +9,22 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify-json/heroicons": "latest",
-    "@nuxt/devtools": "latest",
-    "@nuxt/eslint": "latest",
-    "@types/bun": "latest",
-    "@types/node": "latest",
-    "@vite-pwa/nuxt": "latest",
-    "nuxt": "latest"
+    "@iconify-json/heroicons": "^1.2.2",
+    "@nuxt/devtools": "^1.6.4",
+    "@nuxt/eslint": "^0.7.4",
+    "@types/bun": "^1.1.14",
+    "@types/node": "^22.10.2",
+    "@vite-pwa/nuxt": "^0.10.6",
+    "nuxt": "^3.14.1592"
   },
   "dependencies": {
-    "@auth/core": "latest",
-    "@biomejs/biome": "latest",
-    "@hebilicious/authjs-nuxt": "latest",
-    "@nuxt/ui": "latest",
-    "@opentelemetry/api": "latest",
-    "@vercel/edge-config": "latest",
-    "sass": "latest"
+    "@auth/core": "^0.37.4",
+    "@biomejs/biome": "^1.9.4",
+    "@hebilicious/authjs-nuxt": "^0.3.5",
+    "@nuxt/ui": "^2.20.0",
+    "@opentelemetry/api": "^1.9.0",
+    "@vercel/edge-config": "^1.4.0",
+    "sass": "^1.83.0"
   },
   "overrides": {
     "@auth/core": "latest",
@@ -32,6 +32,7 @@
   },
   "trustedDependencies": [
     "@biomejs/biome",
+    "@parcel/watcher",
     "esbuild",
     "vue-demi"
   ]
