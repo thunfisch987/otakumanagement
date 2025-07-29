@@ -15,7 +15,7 @@
     "@types/bun": "^1.1.14",
     "@types/node": "^24.0.0",
     "@vite-pwa/nuxt": "^1.0.0",
-    "nuxt": "^3.14.1592"
+    "nuxt": "^4.0.0"
   },
   "dependencies": {
     "@auth/core": "^0.40.0",
