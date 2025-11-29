@@ -365,7 +365,7 @@
 
     "@iconify-json/heroicons": ["@iconify-json/heroicons@1.2.3", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-n+vmCEgTesRsOpp5AB5ILB6srsgsYK+bieoQBNlafvoEhjVXLq8nIGN4B0v/s4DUfa0dOrjwE/cKJgIKdJXOEg=="],
 
-    "@iconify/collections": ["@iconify/collections@1.0.622", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-HMTAEh/0GdZe3XoDeelIH6St5LxmPzaWIXCBVhOXUVC6XdWILOCafimpp2SkDqDmpoqZBk9CwDHR3IPf/fXyQQ=="],
+    "@iconify/collections": ["@iconify/collections@1.0.623", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-x2cpyLR5EO66ckbLUMOzwvrPNgANvbzLu4ky1tt5wi7CGMmA+RBl5udAdSohUkIZVR3NOeiJ7jK168s7j1g/ng=="],
 
     "@iconify/types": ["@iconify/types@2.0.0", "", {}, "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg=="],
 
