@@ -13,7 +13,7 @@
     "@nuxt/devtools": "^3.0.0",
     "@nuxt/eslint": "^1.0.0",
     "@types/bun": "^1.1.14",
-    "@types/node": "^24.0.0",
+    "@types/node": "^25.0.0",
     "@vite-pwa/nuxt": "^1.0.0",
     "nuxt": "^4.0.0"
   },
