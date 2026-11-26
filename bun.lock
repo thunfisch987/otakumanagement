@@ -19,7 +19,7 @@
         "@nuxt/eslint": "1.17.0",
         "@types/bun": "1.4.5",
         "@types/node": "26.6.6",
-        "@vite-pwa/nuxt": "2.0.3",
+        "@vite-pwa/nuxt": "2.0.4",
         "nuxt": "4.6.4",
       },
     },
@@ -731,11 +731,11 @@
 
     "@vercel/nft": ["@vercel/nft@1.11.11", "", { "dependencies": { "@mapbox/node-pre-gyp": "^2.0.0", "@rollup/pluginutils": "^5.1.3", "acorn": "^8.6.0", "acorn-import-attributes": "^1.9.5", "async-sema": "^3.1.1", "bindings": "^1.4.0", "estree-walker": "2.0.2", "glob": "^14.0.6", "graceful-fs": "^4.2.9", "node-gyp-build": "^4.2.2", "picomatch": "^4.0.4", "resolve-from": "^5.0.0" }, "bin": { "nft": "out/cli.js" } }, "sha512-iiDMUR5tXVxH+clovSrJV1wkwMPxJu34dQ/wQWjzCYT9iS/1J6Zf2wgdZzTf3X+sG7rJdSOWAQsA173FEwCboQ=="],
 
-    "@vite-pwa/nuxt": ["@vite-pwa/nuxt@2.0.3", "", { "dependencies": { "@nuxt/kit": "^4.6.4", "@unplugin-pwa/core": "^0.0.8", "@vite-pwa/nuxt-core": "2.0.3", "@vite-pwa/nuxt-vite": "2.0.3", "@vite-pwa/workbox-build": "^8.0.15", "defu": "^6.1.7", "verkit": "^0.5.0" }, "peerDependencies": { "@vite-pwa/assets-generator": "^1.0.0 || ^2.0.0", "magicast": "^0.5.0", "rolldown": "^1.0.0-0" }, "optionalPeers": ["@vite-pwa/assets-generator", "magicast", "rolldown"] }, "sha512-NNYK6e8Y5rTSJS41zThrjw1eZP4T8D17UE3qNUzoDvgQ7GII6h2FqV6aBdCm1Hx60rcs9MHJsX0l//QsKSRThg=="],
+    "@vite-pwa/nuxt": ["@vite-pwa/nuxt@2.0.4", "", { "dependencies": { "@nuxt/kit": "^4.6.4", "@unplugin-pwa/core": "^0.0.8", "@vite-pwa/nuxt-core": "2.0.4", "@vite-pwa/nuxt-vite": "2.0.4", "@vite-pwa/workbox-build": "^8.0.15", "defu": "^6.1.7", "verkit": "^0.5.0" }, "peerDependencies": { "@vite-pwa/assets-generator": "^1.0.0 || ^2.0.0", "magicast": "^0.5.0", "rolldown": "^1.0.0-0" }, "optionalPeers": ["@vite-pwa/assets-generator", "magicast", "rolldown"] }, "sha512-X25uEN5j7yL7FyxlvydDa6m0xyMiZvBxoZvKo4aHJ5LCwcHng5fCSzxO2RC0gwomgsyOBqvboKXUg+2/o7zhBw=="],
 
-    "@vite-pwa/nuxt-core": ["@vite-pwa/nuxt-core@2.0.3", "", { "dependencies": { "@unplugin-pwa/core": "^0.0.8", "@vite-pwa/workbox-build": "^8.0.15" } }, "sha512-CEViahfN8aHhBELKS1UeL/5UGoToqiOXP/5K5cZFLdYTOAS7tvTpDLDfaEEXKFnUmE/Wg31Oq0aPuxESl5B83g=="],
+    "@vite-pwa/nuxt-core": ["@vite-pwa/nuxt-core@2.0.4", "", { "dependencies": { "@unplugin-pwa/core": "^0.0.8", "@vite-pwa/workbox-build": "^8.0.15" } }, "sha512-4u4JghHXirF5zOQut7PSeYHFVuLTIY+AYtiAX/CW15DyEcKzy+8wMx4hga4DdC4HGZ1D4NYZbE5kKvnCHtEU2g=="],
 
-    "@vite-pwa/nuxt-vite": ["@vite-pwa/nuxt-vite@2.0.3", "", { "dependencies": { "@nuxt/kit": "^4.6.4", "@rolldown/pluginutils": "^1.1.0", "@unplugin-pwa/core": "^0.0.8", "@unplugin-pwa/vite": "^0.0.8", "@vite-pwa/nuxt-core": "2.0.3", "@vite-pwa/workbox-build": "^8.0.15", "verkit": "^0.5.0" }, "peerDependencies": { "@vite-pwa/assets-generator": "^1.0.0 || ^2.0.0", "magicast": "^0.5.0", "rolldown": "^1.0.0-0" }, "optionalPeers": ["@vite-pwa/assets-generator", "magicast", "rolldown"] }, "sha512-YKvgo0A5O2EZXGt5cIk2B5IG+G0n8C4wkBtHWkzn5D7gpK9Y2ukTx0pLuSs0fhaWz6j4NUWmp0WU8NS0YLNSeg=="],
+    "@vite-pwa/nuxt-vite": ["@vite-pwa/nuxt-vite@2.0.4", "", { "dependencies": { "@nuxt/kit": "^4.6.4", "@rolldown/pluginutils": "^1.1.0", "@unplugin-pwa/core": "^0.0.8", "@unplugin-pwa/vite": "^0.0.8", "@vite-pwa/nuxt-core": "2.0.4", "@vite-pwa/workbox-build": "^8.0.15", "verkit": "^0.5.0" }, "peerDependencies": { "@vite-pwa/assets-generator": "^1.0.0 || ^2.0.0", "magicast": "^0.5.0", "rolldown": "^1.0.0-0" }, "optionalPeers": ["@vite-pwa/assets-generator", "magicast", "rolldown"] }, "sha512-DAL0vtwDSdkhCyYiu9MQ5AjddTpYVwEhwimyb5bY33/mmr4S4yk+I7+Vpbw7+7tQbdtAv71O1HYmvk1sxuHRsg=="],
 
     "@vite-pwa/workbox-build": ["@vite-pwa/workbox-build@8.0.15", "", { "dependencies": { "@jridgewell/remapping": "^2.3.5", "@vite-pwa/workbox-swkit": "8.0.15", "@vite-pwa/workbox-window": "8.0.15", "magic-string": "^1.4.5", "proper-tags": "^2.0.2", "serialize-javascript": "^7.1.4", "tinyglobby": "^0.2.17", "valibot": "^1.5.0", "verkit": "^0.5.0" }, "peerDependencies": { "@rspack/core": "^1.0.0 || ^2.0.0", "magicast": "^0.5.0", "rolldown": "^1.0.0-0", "vite": "^3.1.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0", "webpack": "^5.91.0" }, "optionalPeers": ["@rspack/core", "magicast", "rolldown", "vite", "webpack"] }, "sha512-4CjOeJ8RjHokAAss20ilrjDXlA3mFgKEXY1YEp2jCWJ81ebakZx8fpwY0TUHwe4GCHTHdeobyB8ACseLL6RtDA=="],
 
